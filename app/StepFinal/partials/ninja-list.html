@@ -1,0 +1,49 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="#">Home</a>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3">
+            <!--Sidebar content-->
+            <div class="well">
+
+
+                <form class="form-inline">
+                    <input type="text" class="input-small" placeholder="Search" ng-model="query">
+                    <select ng-model="orderProp">
+                        <option value="firstname">First name</option>
+                        <option value="lastname">Last name</option>
+                    </select>
+                </form>
+
+
+
+            </div>
+        </div>
+
+        <div class="span8">
+            <!--Body content-->
+            <div class="well">
+
+                <ul class="ninja thumbnails">
+                    <li ng-repeat="ninja in ninjas | filter:query | orderBy:orderProp" class="span2">
+
+                        <div class="thumbnail">
+                            <img ng-src="{{ninja.imageurl}}"/>
+                            <div class="caption">
+                                <h3><a href="#/{{ninja.firstname}}">{{ninja.firstname}}</a></h3>
+                                <p>{{ninja.firstname}} {{ninja.lastname}}</p>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+

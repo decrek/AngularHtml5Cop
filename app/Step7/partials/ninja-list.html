@@ -1,0 +1,13 @@
+<form class="form-inline">
+    <input type="text" class="input-small" placeholder="Search" ng-model="query">
+    <select class="selectpicker" ng-model="orderProp">
+        <option value="firstname">Firstname</option>
+        <option value="lastname">Lastname</option>
+    </select>
+</form>
+
+<div ng-repeat="ninja in ninjas | filter:query | orderBy:orderProp">
+    <person></person>
+</div>
+
+{{ninjas}}

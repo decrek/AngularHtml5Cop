@@ -1,0 +1,27 @@
+[
+    {
+        "firstname" : "Declan",
+        "lastname" : "Rek",
+        "imageurl" : "../img/Declan.jpg"
+    },
+    {
+        "firstname" : "Thijs",
+        "lastname" : "Louisse",
+        "imageurl" : "../img/Thijs.jpg"
+    },
+    {
+        "firstname" : "Peter",
+        "lastname" : "Peerdeman",
+        "imageurl" : "../img/Peter.jpg"
+    },
+    {
+        "firstname" : "Matijs",
+        "lastname" : "Moest",
+        "imageurl" : "../img/Matijs.jpg"
+    },
+    {
+        "firstname" : "Willem",
+        "lastname" : "Mulder",
+        "imageurl" : "../img/Willem.jpg"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "firstname" : "Thijs",
+    "lastname" : "Louisse",
+    "imageurl" : "Thijs.jpg",
+    "competences" : {
+        "html" : true,
+        "css" : false,
+        "javascript" : true,
+        "java" : false
+    }
+}

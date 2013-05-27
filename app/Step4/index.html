@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="html5cop">
+<head>
+    <title>Html5Cop Ninjas</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+
+<div ng-controller="NinjaCtrl">
+
+    <form class="form-inline">
+        <input type="text" class="input-small" placeholder="Search" ng-model="query">
+        <select class="selectpicker" ng-model="orderProp">
+            <option value="firstname">Firstname</option>
+            <option value="lastname">Lastname</option>
+        </select>
+    </form>
+
+    <div ng-repeat="ninja in ninjas | filter:query | orderBy:orderProp">
+        <person></person>
+    </div>
+
+</div>
+
+
+<script src="../lib/angular/angular.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/app.js"></script>
+<script src="js/directives.js"></script>
+</body>
+</html>
