@@ -12,17 +12,16 @@ angular.module('html5cop.services', ['ngResource']).
     })
     .factory('NinjaStorage', function(){
         return {
-            get: function (ninjaName, ninja) {
-                if(!localStorage.getItem(ninjaName)){
-                    localStorage.setItem(ninjaName, JSON.stringify(ninja));
-                    return JSON.parse(localStorage.getItem(ninjaName) || '[]');
+            get: function (ninja) {
+                if(!localStorage.getItem(ninja.firstname)){
+                    localStorage.setItem(ninja.firstname, JSON.stringify(ninja));
+                    return JSON.parse(localStorage.getItem(ninja.firstname) || '[]');
                 } else {
-                    return JSON.parse(localStorage.getItem(ninjaName) || '[]');
+                    return JSON.parse(localStorage.getItem(ninja.firstname) || '[]');
                 }
             },
 
-            put: function (ninja, ninjaBio) {
-                ninja.bio = ninjaBio;
+            put: function (ninja) {
                 localStorage.setItem(ninja.firstname, JSON.stringify(ninja));
             }
         };

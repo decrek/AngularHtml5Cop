@@ -6,7 +6,7 @@ angular.module('html5cop.controllers', [])
 
     .controller('NinjaListCtrl', function($scope, Ninja) {
         $scope.ninjas = Ninja.query();
-        $scope.orderProp = 'firstname';
+        $scope.orderProp = 'lastname';
     })
 
     .controller('NinjaCtrl', function($scope, $routeParams, Ninja, NinjaStorage) {
@@ -14,11 +14,11 @@ angular.module('html5cop.controllers', [])
         $scope.editMode = false;
 
         Ninja.get({ninjaName: $routeParams.ninjaName}, function(ninja){
-            $scope.ninja = NinjaStorage.get($routeParams.ninjaName, ninja);
+            $scope.ninja = NinjaStorage.get(ninja);
         });
 
-        $scope.save = function(ninja, ninjaBio){
-            NinjaStorage.put(ninja, ninjaBio);
+        $scope.save = function(ninja){
+            NinjaStorage.put(ninja);
         };
 
         $scope.switchMode = function(editMode){

@@ -19,11 +19,13 @@
         <div class="well">
             <h1>{{ninja.firstname}} {{ninja.lastname}}</h1>
 
-
             <div class="markdown">
+
                 <label for="bio">Bio:</label>
                 <textarea ng-show="editMode" id="bio" style="width:50%; display: inline;" cols="10" rows="10" ng-model="ninja.bio"></textarea>
+
                 <pre ng-show="editMode">{{ninja.bio | markdown}}</pre>
+
                 <div ng-show="!editMode" style="width:100%;" ng-bind-html-unsafe="ninja.bio | markdown"></div>
 
                 <button ng-show="editMode" ng-click="switchMode(editMode)" class="btn">Preview</button>

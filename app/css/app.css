@@ -12,3 +12,7 @@ select{
 .thumbnail{
     min-height: 231px;
 }
+
+.dl-horizontal dt{
+    text-align: left;
+}
