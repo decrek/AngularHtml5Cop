@@ -7,7 +7,7 @@ var app = angular.module('html5cop.directives', [])
         return {
             restrict:'E',
             template:
-                '<div>'+
+                '<div class="thumbnail">'+
                     '<h3>{{ninja.firstname}} {{ninja.lastname}}</h3>'+
                 '</div>'
         };

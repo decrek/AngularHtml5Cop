@@ -8,7 +8,7 @@ app.directive('person', function () {
     return {
         restrict:'E',
         template:
-            '<div>'+
+            '<div class="thumbnail">'+
                 '<h3>{{ninja.name}}</h3>'+
             '</div>'
     };
