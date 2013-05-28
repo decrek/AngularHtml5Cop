@@ -23,5 +23,51 @@
         "firstname" : "Willem",
         "lastname" : "Mulder",
         "imageurl" : "../img/Willem.jpg"
+    },
+
+    {
+        "firstname" : "Ton",
+        "lastname" : "Hordijk",
+        "imageurl" : "../img/Ton.jpg"
+    },
+    {
+        "firstname" : "Shane",
+        "lastname" : "Smith",
+        "imageurl" : "../img/Shane.jpg"
+    },
+    {
+        "firstname" : "Ryan",
+        "lastname" : "Kool",
+        "imageurl" : "../img/Ryan.jpg"
+    },
+    {
+        "firstname" : "Rogier",
+        "lastname" : "Saarloos",
+        "imageurl" : "../img/Rogier.jpg"
+    },
+    {
+        "firstname" : "Niek",
+        "lastname" : "Sombekke",
+        "imageurl" : "../img/Niek.jpg"
+    },
+    {
+        "firstname" : "Lucas",
+        "lastname" : "van den Bemd",
+        "imageurl" : "../img/Lucas.jpg"
+    },
+    {
+        "firstname" : "Geert-Jan",
+        "lastname" : "Beunk",
+        "imageurl" : "../img/Geert-Jan.jpg"
+    },
+    {
+        "firstname" : "Florian",
+        "lastname" : "van der Wielen",
+        "imageurl" : "../img/Florian.jpg"
+    },
+    {
+        "firstname" : "Don",
+        "lastname" : "Duell",
+        "imageurl" : "../img/Don.jpg"
     }
 ]

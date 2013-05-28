@@ -5,3 +5,10 @@ pre{
     overflow-y: scroll;
 }
 
+select{
+    width:100px;
+}
+
+.thumbnail{
+    min-height: 231px;
+}

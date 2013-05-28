@@ -1,0 +1,11 @@
+{
+    "firstname" : "Ton",
+    "lastname" : "Hordijk",
+    "imageurl" : "Ton.jpg",
+    "competences" : {
+        "html" : false,
+        "css" : false,
+        "javascript" : true,
+        "java" : true
+    }
+}

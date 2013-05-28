@@ -1,0 +1,11 @@
+{
+    "firstname" : "Lucas",
+    "lastname" : "van den Bemd",
+    "imageurl" : "Lucas.jpg",
+    "competences" : {
+        "html" : true,
+        "css" : false,
+        "javascript" : true,
+        "java" : true
+    }
+}

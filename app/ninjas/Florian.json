@@ -1,0 +1,11 @@
+{
+    "firstname" : "Florian",
+    "lastname" : "van der Wielen",
+    "imageurl" : "Florian.jpg",
+    "competences" : {
+        "html" : true,
+        "css" : false,
+        "javascript" : true,
+        "java" : false
+    }
+}

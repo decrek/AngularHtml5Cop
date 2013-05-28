@@ -1,0 +1,11 @@
+{
+    "firstname" : "Rogier",
+    "lastname" : "Saarloos",
+    "imageurl" : "Rogier.jpg",
+    "competences" : {
+        "html" : false,
+        "css" : true,
+        "javascript" : true,
+        "java" : false
+    }
+}
